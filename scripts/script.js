@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", async function() {
     const carousel = document.querySelector(".carousel");
-    const projects = await fetch("../resources/projects.json").then(doc => doc.json());
+    const projects = await fetch("./resources/projects.json").then(doc => doc.json());
     projects.forEach(project => {
         carousel.appendChild(get_project_card(project));
     });
