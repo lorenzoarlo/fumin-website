@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Villetta residenziale",
+        "image-url": "resources/photos/villa-residenziale.jpg",
+        "place": "Rimini"
+    },
+    {
+        "name": "Edificio commerciale",
+        "image-url": "resources/photos/edificio-commerciale.jpg",
+        "place": "Riccione"
+    },
+    {
+        "name": "Ristrutturazione interni",
+        "image-url": "resources/photos/interno-appartamento.jpg",
+        "place": "Rimini"
+    },
+    {
+        "name": "Piscina",
+        "image-url": "resources/photos/piscina.jpg",
+        "place": "Bellaria"
+    },
+    {
+        "name": "Rotonda",
+        "image-url": "resources/photos/rotonda.jpg",
+        "place": "Rimini"
+    }
+]

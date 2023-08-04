@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="800" height="800" preserveAspectRatio="none" viewBox="0 0 800 800">
+    <g clip-path="url(&quot;#mask&quot;)" fill="none">
+        <rect width="800" height="800" x="0" y="0" fill="rgba(254, 254, 254, 1)"></rect>
+        <circle r="133.335" cx="-39.35" cy="-100.08" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="116.265" cx="72.3" cy="646.31" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="149.9" cx="105.6" cy="21.43" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="106.315" cx="176.89" cy="401.8" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="66.93" cx="533.88" cy="464.99" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="229.68" cx="419.87" cy="649.78" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="184.585" cx="333.71" cy="341.32" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="187.635" cx="517.45" cy="754.1" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="230.41" cx="431.76" cy="234.41" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="216.115" cx="723.56" cy="478.98" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="220.97" cx="34.27" cy="570.23" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="194.91" cx="233.37" cy="107.9" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="108.895" cx="459.83" cy="49.57" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="124.05" cx="697.13" cy="711.65" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="225.535" cx="212.21" cy="471.18" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="122.925" cx="398.02" cy="370.28" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="70.885" cx="752.04" cy="572.66" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="179.81" cx="397.96" cy="216.78" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="69.35" cx="775.31" cy="466.12" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+        <circle r="253.845" cx="107.17" cy="417.65" stroke="#ececec" stroke-opacity="1" stroke-width="2"></circle>
+    </g>
+    <defs>
+        <clipPath id="mask">
+            <rect width="800" height="800" x="0" y="0"></rect>
+        </clipPath>
+    </defs>
+</svg>
