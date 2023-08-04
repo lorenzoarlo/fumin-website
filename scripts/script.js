@@ -17,11 +17,10 @@ function get_project_card(object) {
         <div class="card-image"></div>
         <div class="content-wrapper">
             <span class="card-title">${object["name"]}</span>
-            <span class="card-location">${object['place']}</span>
         </div>
-        <img src="../resources/cursor-icon.svg" class="cursor-pointer" />
+        <img src="./resources/cursor-icon.svg" class="cursor-pointer" />
     </div>`;
-
+    // <span class="card-location">${object['place']}</span>
     card.querySelector(".card-image").style.backgroundImage = `url(${object['image-url']})`;
 
     card.addEventListener("click", function() {
