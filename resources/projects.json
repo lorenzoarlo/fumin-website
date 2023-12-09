@@ -1,27 +1,32 @@
 [
-    {
-        "name": "Villetta residenziale",
-        "image-url": "resources/photos/villa-residenziale.jpg",
-        "place": "Rimini"
-    },
-    {
-        "name": "Edificio commerciale",
-        "image-url": "resources/photos/edificio-commerciale.jpg",
-        "place": "Riccione"
-    },
-    {
-        "name": "Ristrutturazione interni",
-        "image-url": "resources/photos/interno-appartamento.jpg",
-        "place": "Rimini"
-    },
-    {
-        "name": "Piscina",
-        "image-url": "resources/photos/piscina.jpg",
-        "place": "Bellaria"
-    },
-    {
-        "name": "Rotonda",
-        "image-url": "resources/photos/rotonda.jpg",
-        "place": "Rimini"
-    }
-]
+  { "image-url": "resources/photos/cantiere-1.webp" },
+  { "image-url": "resources/photos/cantiere-2.webp" },
+  { "image-url": "resources/photos/cantiere-3.webp" },
+  { "image-url": "resources/photos/cantiere-4.webp" },
+  { "image-url": "resources/photos/cantiere-5.webp" },
+  { "image-url": "resources/photos/cantiere-6.webp" },
+  { "image-url": "resources/photos/cantiere-7.webp" },
+  { "image-url": "resources/photos/cantiere-8.webp" },
+  { "image-url": "resources/photos/cantiere-9.webp" },
+  { "image-url": "resources/photos/cantiere-10.webp" },
+  { "image-url": "resources/photos/cantiere-11.webp" },
+  { "image-url": "resources/photos/cantiere-12.webp" },
+  { "image-url": "resources/photos/cantiere-15.webp" },
+  { "image-url": "resources/photos/cantiere-16.webp" },
+  { "image-url": "resources/photos/cantiere-17.webp" },
+  { "image-url": "resources/photos/muro-1.webp" },
+  { "image-url": "resources/photos/muro-2.webp" },
+  { "image-url": "resources/photos/taverna-1.webp" },
+  { "image-url": "resources/photos/taverna-2.webp" },
+  { "image-url": "resources/photos/villetta-1.webp" },
+  { "image-url": "resources/photos/villetta-2.webp" },
+  { "image-url": "resources/photos/villetta-3.webp" },
+  { "image-url": "resources/photos/agriturismo-carlini-1.webp" },
+  { "image-url": "resources/photos/agriturismo-carlini-2.webp" },
+  { "image-url": "resources/photos/parco-giochi.webp" },
+  { "image-url": "resources/photos/mansarda.webp" },
+  { "image-url": "resources/photos/casa.webp" },
+  { "image-url": "resources/photos/tetto.webp" },
+  { "image-url": "resources/photos/braccio.webp" },
+  { "image-url": "resources/photos/gru.webp" }
+] 
