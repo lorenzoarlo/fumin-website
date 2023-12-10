@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @font-face {
   font-family: DancingScript;
   src: url("../resources/DancingScript-Bold.ttf");
@@ -136,20 +129,6 @@ html, body {
   height: 4ex;
 }
 
-.call-to-action {
-  padding-inline: 1em;
-  padding-block: .4em;
-  
-  background-color: var(--bg-primary-clr);
-  border: 4px solid var(--secondary-clr);
-  color: var(--secondary-clr);
-  -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
-          transition-duration: 300ms;
-  -webkit-transition-property: background-color, stroke, fill, color;
-  -o-transition-property: background-color, stroke, fill, color;
-  transition-property: background-color, stroke, fill, color;
-}
 
 .logo .svg-icon {
   width: 4ex;
@@ -403,10 +382,11 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
