@@ -13,6 +13,7 @@
     <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
     <meta name="theme-color" content="#fefefe">
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="script.js"></script>
     <meta name="keywords" content="fumin, impresa generale di costruzioni, rimini, edile, costruzioni" />
     <meta name="description" content="FUMIN Costruzioni SRL è un'impresa generale di costruzioni leader nel territorio riminese.">
     <meta name="robots" content="index, nofollow">
@@ -56,8 +57,6 @@
                     <br/>
                     Con una <strong>comprovata esperienza</strong>, abbiamo guadagnato una solida reputazione per la professionalità, l'eccellenza e l'affidabilità dei nostri servizi per <strong>progetti residenziali</strong>, <strong>commerciali</strong>, <strong>industriali</strong> e di <strong>ristrutturazione</strong>.
                     <br/>
-                    
-                    <br/>
                     La nostra dedizione alla qualità, alla sostenibilità e all'innovazione ci guida in ogni progetto che intraprendiamo. 
                 </p>
             </section>
@@ -66,28 +65,93 @@
             <span class="part-title">Gallery</span>
             <div class="scroller">
                 <div class="scroller__inner">
-                    <div class="scroller__inner">
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-1.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-2.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-3.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-4.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-5.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-6.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-7.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-8.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-9.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-10.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-11.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-12.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-15.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-16.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/cantiere-17.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/muro-1.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/muro-2.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/taverna-1.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/taverna-2.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/villetta-1.webp');"></div></div>
-                        <div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/villetta-2.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/villetta-3.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/agriturismo-carlini-1.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/agriturismo-carlini-2.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/parco-giochi.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/mansarda.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/casa.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/tetto.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/braccio.webp');"></div></div><div class="carousel-card"><div class="card-image" style="background-image: url('resources/photos/gru.webp');"></div></div></div>
+                    <div class="carousel-card" onclick="spawn_slideshow('agriturismo-carlini')">
+                        <img class="card-image second" src="resources/photos/agriturismo-carlini-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/agriturismo-carlini-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Agriturismo Carlini</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('white-house-igea-marina')">
+                        <img class="card-image fifth" src="resources/photos/white-house-igea-marina-2.webp" lazy />
+                        <img class="card-image fourth" src="resources/photos/white-house-igea-marina-2.webp" lazy />
+                        <img class="card-image third" src="resources/photos/white-house-igea-marina-2.webp" lazy />
+                        <img class="card-image second" src="resources/photos/white-house-igea-marina-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/white-house-igea-marina-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">"White-House" a Igea Marina</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('bifamiliare-bellariva')">
+                        <img class="card-image third" src="resources/photos/bifamiliare-bellariva-2.webp" lazy />
+                        <img class="card-image second" src="resources/photos/bifamiliare-bellariva-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/bifamiliare-bellariva-1.webp" />
+
+                        <div class="card-front">
+                            <span class="card-title">Villetta bifamiliare a Bellariva</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('bifamiliare-san-martino')">
+                        <img class="card-image third" src="resources/photos/bifamiliare-san-martino-2.webp" lazy />
+                        <img class="card-image second" src="resources/photos/bifamiliare-san-martino-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/bifamiliare-san-martino-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Villetta bifamiliare a San Martino</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('villa-rimini')"> 
+                        <img class="card-image second" src="resources/photos/villa-rimini-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/villa-rimini-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Villetta a Rimini</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('condomini-villa-verucchio')">
+                        <img class="card-image fifth" src="resources/photos/condomini-villa-verucchio-2.webp" lazy />
+                        <img class="card-image fourth" src="resources/photos/condomini-villa-verucchio-2.webp" lazy />
+                        <img class="card-image third" src="resources/photos/condomini-villa-verucchio-2.webp" lazy />
+                        <img class="card-image second" src="resources/photos/condomini-villa-verucchio-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/condomini-villa-verucchio-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Condomini a Villa Verucchio</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('villa-san-paolo')">
+                        <img class="card-image fifth" src="resources/photos/villa-san-paolo-2.webp" lazy />
+                        <img class="card-image fourth" src="resources/photos/villa-san-paolo-2.webp" lazy />
+                        <img class="card-image third" src="resources/photos/villa-san-paolo-2.webp" lazy />
+                        <img class="card-image second" src="resources/photos/villa-san-paolo-2.webp" lazy/>
+                        <img class="card-image" src="resources/photos/villa-san-paolo-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Villetta a San Paolo</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('macchinari')">
+                        <img class="card-image second" src="resources/photos/macchinari-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/macchinari-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">I nostri macchinari</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('muratura')">
+                        <img class="card-image second" src="resources/photos/muro-2.webp" lazy />
+                        <img class="card-image" src="resources/photos/muro-1.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Muratura</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('il-nostro-team')">
+                        <img class="card-image" src="resources/photos/il-nostro-team.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Il nostro team</span>
+                        </div>
+                    </div>
+                    <div class="carousel-card" onclick="spawn_slideshow('stabilimento-balneare-riccione')">
+                        <img class="card-image" src="resources/photos/stabilimento-balneare-riccione.webp" />
+                        <div class="card-front">
+                            <span class="card-title">Stabilimento balneare a Riccione</span>
+                        </div>
+                    </div>
                 </div>
               </div>
         </section>
