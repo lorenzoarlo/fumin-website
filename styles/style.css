@@ -368,6 +368,7 @@ html, body {
 }
 
 .card-image {
+  background: #0f0f0f;
   width: calc(var(--carousel-card-width) * 0.9);
   height: calc(var(--carousel-card-width) * 0.9);
   border: 2px solid black;
@@ -534,11 +535,10 @@ html, body {
   height: 15rem;
   border-radius: 20px;
   z-index: 2;
-
+  background: url("../resources/loading.gif");
   -ms-grid-row: 1;
-
-  grid-row: 1;
-  -ms-grid-column: 1;
+  grid-row: 1;  
+  -ms-grid-column: 1;  
   grid-column: 1;
   -webkit-transition: -webkit-transform 500ms;
   transition: -webkit-transform 500ms;
