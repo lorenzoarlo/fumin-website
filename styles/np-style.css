@@ -403,7 +403,10 @@ html, body {
   height: 15rem;
   border-radius: 20px;
   z-index: 2;
-  background: url("../resources/loading.gif");
+  
+  background-image: url("../resources/loading.gif");
+  background-size: cover;
+
   grid-row: 1;  
   grid-column: 1;
   transition: transform 500ms;
