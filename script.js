@@ -38,6 +38,7 @@ function spawn_slideshow(codename) {
     popup_container.id = "popup-container";
 
     const close_button = document.createElement("img");
+    close_button.setAttribute('role', "button");
     close_button.classList.add("popup-close");
     close_button.src = "resources/close.svg";
     close_button.addEventListener("click", function() {
@@ -62,11 +63,13 @@ function spawn_slideshow(codename) {
 
     
     const arrow_prev = document.createElement("img");
+    arrow_prev.setAttribute('role', "button");
     arrow_prev.classList.add("arrow");
     arrow_prev.classList.add("arrow-prev");
     arrow_prev.src = "resources/arrow-prev.svg";
     
     const arrow_next = document.createElement("img");
+    arrow_next.setAttribute('role', "button");
     arrow_next.classList.add("arrow");
     arrow_next.classList.add("arrow-next");
     arrow_next.src = "resources/arrow-next.svg";
